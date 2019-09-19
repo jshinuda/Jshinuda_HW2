@@ -23,9 +23,7 @@ body {
         
         width: 47%;
         border: solid 2px rgb(23, 184, 23);
-        
-
-        
+       
     }
 
     img {
@@ -37,59 +35,70 @@ body {
      
     }
 
+   
     h3 {
         display: flexbox;
         width: 40%;
         font-size: 12px;
-        padding: 2px;
+        
     }
 
     .container-1 {
         display: flex;
         margin-left: 100px;
-        margin-right: 100px;        
-        
+        margin-right: 100px; 
+        margin-top: 20px;       
         align-content: center;
+        height: 350px;
     }
      
 
 
     .box {
-        border-color: red;
+        border-color: rgb(196, 15, 15);
         border-style: solid;
         width: 50%;
+        
     }
 
     #box1 {
-        border-width: 5px 3px 5px 5px
+        border-width: 5px 3px 5px 5px;
+        margin-top: 2px;
+        
+        
     }
 
     #box2 {
-        border-width: 5px 5px 5px 2px
+        border-width: 5px 5px 5px 2px;
+        margin-top: 2px;
+        
     }
 
-        .underline1 {
-            text-decoration: underline;           
+        #underline1 {
+            text-decoration: underline;
+            font-weight: 900;           
         }
 
-        .underline2 {
+        #underline2 {
             text-decoration: underline; 
+            font-weight: 900;
                        
 
         }
         
-        .underline3 {
+        #underline3 {
             text-decoration: underline;
+            font-weight: 900;
         }
        
 
         .center {
-            text-align: center;
+            margin-left: 145px;
         }
 
         .center2 {
 
-            text-align: center;
+            margin-left: 120px;
         }
 
 
@@ -105,27 +114,38 @@ body {
         display: flexbox;
         width: 80%;
         font-size: 12px;
-       
-        padding: 2px;
+       padding: 2px;
+       margin-left: 20px;
+        
 
     }
 
     .namelabel {
-        margin-left: 30px;
+        margin-left: 75px;
     }
    .nametextbox {
-    margin-left: 10px;
+    margin-left: 15px;
+    width: 200px;
     
 
    }
    
    .emaillabel {
-    margin-left: 30px;
+    margin-left: 71px;
    }
 
    .messagelabel {
-    margin-left: 30px;
+    margin-left: 64px;
+   }
+
+
+  #name {
+    width: 200px;
    
+   }
+
+   #email {
+    width: 200px;
    }
 
    .innerbox {
@@ -141,3 +161,27 @@ body {
    .centerbutton {
        text-align: center;
    }
+
+   #message {
+       width: 200px;
+       height: 50px;
+       margin-left: 30px;
+   }
+   
+
+   .text {
+
+    margin-left: 5px;
+   }
+
+   #name {
+       margin-left: 30px;
+
+   }
+
+   #email {
+    margin-left: 30px;
+
+   }
+
+   
